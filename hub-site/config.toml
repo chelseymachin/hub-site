@@ -1,4 +1,16 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'Poison'
+baseURL = "/"
+languageCode = "en-us"
+theme = "poison"
+paginate = 10
+pluralizelisttitles = false
+
+[params]
+    brand = "Chelsey Machin"
+    description = "A site to follow my engineering and crafting adventures!"
+    dark_mode = true
+
+    menu = [
+        {Name = "About Me", URL = "/about/", HasChildren = false},
+        {Name = "Coding", URL = "/coding/"},
+        {Name = "Crafting", URL = "/crafting/"},
+    ]
